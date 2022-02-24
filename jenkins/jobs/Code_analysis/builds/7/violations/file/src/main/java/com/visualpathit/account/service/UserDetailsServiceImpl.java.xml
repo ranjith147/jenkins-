@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file
+  name="src/main/java/com/visualpathit/account/service/UserDetailsServiceImpl.java"
+  last-modified="1642052726959"
+  file="/var/lib/jenkins/workspace/Code_analysis/src/main/java/com/visualpathit/account/service/UserDetailsServiceImpl.java"
+>
+  <violation
+    line="19"
+    source="JavadocVariableCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="20"
+    source="InvalidJavadocPositionCheck"
+    severity="High"
+    type="checkstyle"
+    message="Javadoc comment is placed in the wrong location."
+    severity-level="0"
+    popup-message="Javadoc comment is placed in the wrong location."
+  />
+  <violation
+    line="23"
+    source="DesignForExtensionCheck"
+    severity="High"
+    type="checkstyle"
+    message="Class 'UserDetailsServiceImpl' looks like designed for extension (can be subclassed), but the method 'loadUserByUsername' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'UserDetailsServiceImpl' final or making the method 'loadUserByUsername' static/final/abstract/empty, or adding allowed annotation for the method."
+    severity-level="0"
+    popup-message="Class 'UserDetailsServiceImpl' looks like designed for extension (can be subclassed), but the method 'loadUserByUsername' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'UserDetailsServiceImpl' final or making the method 'loadUserByUsername' static/final/abstract/empty, or adding allowed annotation for the method."
+  />
+  <violation
+    line="25"
+    source="RegexpSinglelineCheck"
+    severity="High"
+    type="checkstyle"
+    message="Line has trailing spaces."
+    severity-level="0"
+    popup-message="Line has trailing spaces."
+  />
+  <violation
+    line="26"
+    source="FileTabCharacterCheck"
+    severity="High"
+    type="checkstyle"
+    message="File contains tab characters (this is the first instance)."
+    severity-level="0"
+    popup-message="File contains tab characters (this is the first instance)."
+  />
+  <violation
+    line="35"
+    source="LineLengthCheck"
+    severity="High"
+    type="checkstyle"
+    message="Line is longer than 80 characters (found 105)."
+    severity-level="0"
+    popup-message="Line is longer than 80 characters (found 105)."
+  />
+  <line number='10'>import org.springframework.security.core.userdetails.UserDetails;</line>
+  <line number='11'>import org.springframework.security.core.userdetails.UserDetailsService;</line>
+  <line number='12'>import org.springframework.security.core.userdetails.UsernameNotFoundException;</line>
+  <line number='13'>import org.springframework.transaction.annotation.Transactional;</line>
+  <line number='14'></line>
+  <line number='15'>import java.util.HashSet;</line>
+  <line number='16'>import java.util.Set;</line>
+  <line number='17'>/** {@author waheedk} !*/</line>
+  <line number='18'>public class UserDetailsServiceImpl implements UserDetailsService {</line>
+  <line number='19'>    @Autowired</line>
+  <line number='20'>    /** userRepository !*/</line>
+  <line number='21'>    private UserRepository userRepository;</line>
+  <line number='22'></line>
+  <line number='23'>    @Override</line>
+  <line number='24'>    @Transactional(readOnly = true)</line>
+  <line number='25'>    public UserDetails loadUserByUsername(final String username) </line>
+  <line number='26'>    				throws UsernameNotFoundException {</line>
+  <line number='27'>        User user = userRepository.findByUsername(username);</line>
+  <line number='28'></line>
+  <line number='29'>        Set&lt;GrantedAuthority&gt; grantedAuthorities = new HashSet&lt;&gt;();</line>
+  <line number='30'>        for (Role role : user.getRoles()) {</line>
+  <line number='31'>            grantedAuthorities.add(new SimpleGrantedAuthority(role.getName()));</line>
+  <line number='32'>        }</line>
+  <line number='33'></line>
+  <line number='34'>        return new org.springframework.security.core</line>
+  <line number='35'>        		   .userdetails.User(user.getUsername(), user.getPassword(), grantedAuthorities);</line>
+  <line number='36'>    }</line>
+  <line number='37'>}</line>
+  <type type='checkstyle' number='6' suppressed='0'/>
+</file>

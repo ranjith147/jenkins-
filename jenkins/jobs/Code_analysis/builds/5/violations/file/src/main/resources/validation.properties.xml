@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file
+  name="src/main/resources/validation.properties"
+  last-modified="1642052726959"
+  file="/var/lib/jenkins/workspace/Code_analysis/src/main/resources/validation.properties"
+>
+  <violation
+    line="1"
+    source="NewlineAtEndOfFileCheck"
+    severity="High"
+    type="checkstyle"
+    message="File does not end with a newline."
+    severity-level="0"
+    popup-message="File does not end with a newline."
+  />
+  <line number='1'>NotEmpty=This field is required.</line>
+  <line number='2'>Size.userForm.username=Please use between 6 and 32 characters.</line>
+  <line number='3'>Duplicate.userForm.username= User has already taken this Username.</line>
+  <line number='4'>Size.userForm.password=Try one with at least 8 characters.</line>
+  <line number='5'>Diff.userForm.passwordConfirm=These passwords don't match.</line>
+  <type type='checkstyle' number='1' suppressed='0'/>
+</file>

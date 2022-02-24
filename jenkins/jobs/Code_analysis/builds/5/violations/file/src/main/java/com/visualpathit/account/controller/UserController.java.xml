@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file
+  name="src/main/java/com/visualpathit/account/controller/UserController.java"
+  last-modified="1642052726959"
+  file="/var/lib/jenkins/workspace/Code_analysis/src/main/java/com/visualpathit/account/controller/UserController.java"
+>
+  <violation
+    line="1"
+    source="JavadocPackageCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing package-info.java file."
+    severity-level="0"
+    popup-message="Missing package-info.java file."
+  />
+  <violation
+    line="15"
+    source="JavadocStyleCheck"
+    severity="High"
+    type="checkstyle"
+    message="First sentence should end with a period."
+    severity-level="0"
+    popup-message="First sentence should end with a period."
+  />
+  <violation
+    line="18"
+    source="JavadocVariableCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="21"
+    source="JavadocVariableCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="24"
+    source="JavadocVariableCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="26"
+    source="RegexpSinglelineCheck"
+    severity="High"
+    type="checkstyle"
+    message="Line has trailing spaces."
+    severity-level="0"
+    popup-message="Line has trailing spaces."
+  />
+  <violation
+    line="36"
+    source="RegexpSinglelineCheck"
+    severity="High"
+    type="checkstyle"
+    message="Line has trailing spaces."
+    severity-level="0"
+    popup-message="Line has trailing spaces."
+  />
+  <violation
+    line="36"
+    source="LineLengthCheck"
+    severity="High"
+    type="checkstyle"
+    message="Line is longer than 80 characters (found 86)."
+    severity-level="0"
+    popup-message="Line is longer than 80 characters (found 86)."
+  />
+  <violation
+    line="37"
+    source="FileTabCharacterCheck"
+    severity="High"
+    type="checkstyle"
+    message="File contains tab characters (this is the first instance)."
+    severity-level="0"
+    popup-message="File contains tab characters (this is the first instance)."
+  />
+  <violation
+    line="38"
+    source="RegexpSinglelineCheck"
+    severity="High"
+    type="checkstyle"
+    message="Line has trailing spaces."
+    severity-level="0"
+    popup-message="Line has trailing spaces."
+  />
+  <violation
+    line="43"
+    source="WhitespaceAroundCheck"
+    severity="High"
+    type="checkstyle"
+    message="'+' is not followed by whitespace."
+    severity-level="0"
+    popup-message="'+' is not followed by whitespace."
+  />
+  <violation
+    line="43"
+    source="WhitespaceAroundCheck"
+    severity="High"
+    type="checkstyle"
+    message="'+' is not preceded with whitespace."
+    severity-level="0"
+    popup-message="'+' is not preceded with whitespace."
+  />
+  <violation
+    line="46"
+    source="LineLengthCheck"
+    severity="High"
+    type="checkstyle"
+    message="Line is longer than 80 characters (found 89)."
+    severity-level="0"
+    popup-message="Line is longer than 80 characters (found 89)."
+  />
+  <violation
+    line="52"
+    source="LineLengthCheck"
+    severity="High"
+    type="checkstyle"
+    message="Line is longer than 80 characters (found 91)."
+    severity-level="0"
+    popup-message="Line is longer than 80 characters (found 91)."
+  />
+  <violation
+    line="53"
+    source="WhitespaceAroundCheck"
+    severity="High"
+    type="checkstyle"
+    message="'{' is not preceded with whitespace."
+    severity-level="0"
+    popup-message="'{' is not preceded with whitespace."
+  />
+  <violation
+    line="54"
+    source="LineLengthCheck"
+    severity="High"
+    type="checkstyle"
+    message="Line is longer than 80 characters (found 82)."
+    severity-level="0"
+    popup-message="Line is longer than 80 characters (found 82)."
+  />
+  <violation
+    line="56"
+    source="WhitespaceAroundCheck"
+    severity="High"
+    type="checkstyle"
+    message="'{' is not preceded with whitespace."
+    severity-level="0"
+    popup-message="'{' is not preceded with whitespace."
+  />
+  <violation
+    line="57"
+    source="LineLengthCheck"
+    severity="High"
+    type="checkstyle"
+    message="Line is longer than 80 characters (found 84)."
+    severity-level="0"
+    popup-message="Line is longer than 80 characters (found 84)."
+  />
+  <violation
+    line="67"
+    source="NoWhitespaceBeforeCheck"
+    severity="High"
+    type="checkstyle"
+    message="',' is preceded with whitespace."
+    severity-level="0"
+    popup-message="',' is preceded with whitespace."
+  />
+  <line number='1'>package com.visualpathit.account.controller;</line>
+  <line number='2'></line>
+  <line number='3'>import com.visualpathit.account.model.User;</line>
+  <line number='4'>import com.visualpathit.account.service.SecurityService;</line>
+  <line number='5'>import com.visualpathit.account.service.UserService;</line>
+  <line number='6'>import com.visualpathit.account.validator.UserValidator;</line>
+  <line number='7'></line>
+  <line number='8'>import org.springframework.beans.factory.annotation.Autowired;</line>
+  <line number='9'>import org.springframework.stereotype.Controller;</line>
+  <line number='10'>import org.springframework.ui.Model;</line>
+  <line number='11'>import org.springframework.validation.BindingResult;</line>
+  <line number='12'>import org.springframework.web.bind.annotation.ModelAttribute;</line>
+  <line number='13'>import org.springframework.web.bind.annotation.RequestMapping;</line>
+  <line number='14'>import org.springframework.web.bind.annotation.RequestMethod;</line>
+  <line number='15'>/**{@author waheedk}*/</line>
+  <line number='16'>@Controller</line>
+  <line number='17'>public class UserController {</line>
+  <line number='18'>    @Autowired</line>
+  <line number='19'>    private UserService userService;</line>
+  <line number='20'></line>
+  <line number='21'>    @Autowired</line>
+  <line number='22'>    private SecurityService securityService;</line>
+  <line number='23'></line>
+  <line number='24'>    @Autowired</line>
+  <line number='25'>    private UserValidator userValidator;</line>
+  <line number='26'>    </line>
+  <line number='27'>    /** {@inheritDoc} */</line>
+  <line number='28'>    @RequestMapping(value = "/registration", method = RequestMethod.GET)</line>
+  <line number='29'>    public final String registration(final Model model) {</line>
+  <line number='30'>        model.addAttribute("userForm", new User());</line>
+  <line number='31'></line>
+  <line number='32'>        return "registration";</line>
+  <line number='33'>    }</line>
+  <line number='34'>    /** {@inheritDoc} */</line>
+  <line number='35'>    @RequestMapping(value = "/registration", method = RequestMethod.POST)</line>
+  <line number='36'>    public final String registration(final @ModelAttribute("userForm") User userForm, </line>
+  <line number='37'>    	final BindingResult bindingResult, final Model model) {</line>
+  <line number='38'>    	</line>
+  <line number='39'>        userValidator.validate(userForm, bindingResult);</line>
+  <line number='40'>        if (bindingResult.hasErrors()) {</line>
+  <line number='41'>            return "registration";</line>
+  <line number='42'>        }</line>
+  <line number='43'>        System.out.println("User PWD:"+userForm.getPassword());</line>
+  <line number='44'>        userService.save(userForm);</line>
+  <line number='45'></line>
+  <line number='46'>        securityService.autologin(userForm.getUsername(), userForm.getPasswordConfirm());</line>
+  <line number='47'></line>
+  <line number='48'>        return "redirect:/welcome";</line>
+  <line number='49'>    }</line>
+  <line number='50'>    /** {@inheritDoc} */</line>
+  <line number='51'>    @RequestMapping(value = "/login", method = RequestMethod.GET)</line>
+  <line number='52'>    public final String login(final Model model, final String error, final String logout) {</line>
+  <line number='53'>        if (error != null){</line>
+  <line number='54'>            model.addAttribute("error", "Your username and password is invalid.");</line>
+  <line number='55'>        }</line>
+  <line number='56'>        if (logout != null){</line>
+  <line number='57'>            model.addAttribute("message", "You have been logged out successfully.");</line>
+  <line number='58'>        }</line>
+  <line number='59'>        return "login";</line>
+  <line number='60'>    }</line>
+  <line number='61'>    /** {@inheritDoc} */</line>
+  <line number='62'>    @RequestMapping(value = { "/", "/welcome"}, method = RequestMethod.GET)</line>
+  <line number='63'>    public final String welcome(final Model model) {</line>
+  <line number='64'>        return "welcome";</line>
+  <line number='65'>    }</line>
+  <line number='66'>    /** {@inheritDoc} */</line>
+  <line number='67'>    @RequestMapping(value = { "/index"} , method = RequestMethod.GET)</line>
+  <line number='68'>    public final String indexHome(final Model model) {</line>
+  <line number='69'>        return "index_home";</line>
+  <line number='70'>    }</line>
+  <line number='71'>}</line>
+  <type type='checkstyle' number='19' suppressed='0'/>
+</file>

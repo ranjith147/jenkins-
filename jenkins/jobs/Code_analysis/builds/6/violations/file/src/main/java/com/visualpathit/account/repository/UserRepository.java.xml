@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file
+  name="src/main/java/com/visualpathit/account/repository/UserRepository.java"
+  last-modified="1642052726959"
+  file="/var/lib/jenkins/workspace/Code_analysis/src/main/java/com/visualpathit/account/repository/UserRepository.java"
+>
+  <violation
+    line="8"
+    source="MissingJavadocMethodCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <line number='1'>package com.visualpathit.account.repository;</line>
+  <line number='2'></line>
+  <line number='3'>import org.springframework.data.jpa.repository.JpaRepository;</line>
+  <line number='4'></line>
+  <line number='5'>import com.visualpathit.account.model.User;</line>
+  <line number='6'></line>
+  <line number='7'>public interface UserRepository extends JpaRepository&lt;User, Long&gt; {</line>
+  <line number='8'>    User findByUsername(String username);</line>
+  <line number='9'>}</line>
+  <type type='checkstyle' number='1' suppressed='0'/>
+</file>

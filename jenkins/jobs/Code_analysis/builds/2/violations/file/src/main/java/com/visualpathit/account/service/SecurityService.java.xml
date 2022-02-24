@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file
+  name="src/main/java/com/visualpathit/account/service/SecurityService.java"
+  last-modified="1642052726959"
+  file="/var/lib/jenkins/workspace/Code_analysis/src/main/java/com/visualpathit/account/service/SecurityService.java"
+>
+  <violation
+    line="1"
+    source="JavadocPackageCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing package-info.java file."
+    severity-level="0"
+    popup-message="Missing package-info.java file."
+  />
+  <violation
+    line="5"
+    source="FileTabCharacterCheck"
+    severity="High"
+    type="checkstyle"
+    message="File contains tab characters (this is the first instance)."
+    severity-level="0"
+    popup-message="File contains tab characters (this is the first instance)."
+  />
+  <violation
+    line="8"
+    source="MissingJavadocMethodCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <line number='1'>package com.visualpathit.account.service;</line>
+  <line number='2'></line>
+  <line number='3'>/** method for finding already added user !*/</line>
+  <line number='4'>public interface SecurityService {</line>
+  <line number='5'>	/** {@inheritDoc}} !*/</line>
+  <line number='6'>    String findLoggedInUsername();</line>
+  <line number='7'></line>
+  <line number='8'>    void autologin(String username, String password);</line>
+  <line number='9'>}</line>
+  <type type='checkstyle' number='3' suppressed='0'/>
+</file>

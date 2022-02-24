@@ -1,0 +1,81 @@
+Started by upstream project "[8mha:////4GxvcYubNR5LAlEMuTpgZyyjbVCYatxrd2gF8GAZ5WnBAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZh/az8JH1noBPjE/MScyqLM4v1AUdqDVvIAAAA[0mCode_analysis" build number [8mha:////4BwK5HAr0+iBbpIcYzK44z1HMKj0YqI69pwSjuQR1dz8AAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBhH9rPwkfWegE+MT8xJzKoszi/UtAPOqD8DJAAAA[0m8
+originally caused by:
+ Started by upstream project "[8mha:////4LqH7EdSmF7HDwjc6jNFhzqybhyI6hdCMXABODqT85PUAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZB/az8JP3MvJLU9KLEksz8PH0AeslshsYAAAA=[0mintegration" build number [8mha:////4ITpX3Ou7EcenRQFCLC3p3tA5OBjlRjl9KNzjG0oW+mDAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQAygGfpZ+Un6mXklqelFiSWZ+Xn6pgBstqIAxwAAAA==[0m5
+ originally caused by:
+  Started by upstream project "[8mha:////4GxvcYubNR5LAlEMuTpgZyyjbVCYatxrd2gF8GAZ5WnBAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZh/az8JH1noBPjE/MScyqLM4v1AUdqDVvIAAAA[0mCode_analysis" build number [8mha:////4LUADkbhNI1tO0ALHEFRtV5geLj0j2fpbsGKXa5yhR55AAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBhH9rPwkfWegE+MT8xJzKoszi/XNAWK3sFDJAAAA[0m7
+  originally caused by:
+   Started by upstream project "[8mha:////4LqH7EdSmF7HDwjc6jNFhzqybhyI6hdCMXABODqT85PUAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZB/az8JP3MvJLU9KLEksz8PH0AeslshsYAAAA=[0mintegration" build number [8mha:////4Fq6xC/kJRLJvjifg5pAAOdlseDqMQk6iBqaU78W/zrGAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQAygGfpZ+Un6mXklqelFiSWZ+Xn6JgD6hqV3xwAAAA==[0m4
+   originally caused by:
+    Started by upstream project "[8mha:////4GxvcYubNR5LAlEMuTpgZyyjbVCYatxrd2gF8GAZ5WnBAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZh/az8JH1noBPjE/MScyqLM4v1AUdqDVvIAAAA[0mCode_analysis" build number [8mha:////4KahSExquzg2pQ4IY7fOtb0gZHwERc76/ccuMQOjnvq9AAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBhH9rPwkfWegE+MT8xJzKoszi/XNAPSHtyfJAAAA[0m6
+    originally caused by:
+     Started by upstream project "[8mha:////4LqH7EdSmF7HDwjc6jNFhzqybhyI6hdCMXABODqT85PUAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZB/az8JP3MvJLU9KLEksz8PH0AeslshsYAAAA=[0mintegration" build number [8mha:////4IN58+wUOkrYH0mcu4G+f5unSRt0/CRakKfa5LrJH6bvAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQAygGfpZ+Un6mXklqelFiSWZ+Xn6xgBZE8HpxwAAAA==[0m3
+     originally caused by:
+      Started by upstream project "[8mha:////4GxvcYubNR5LAlEMuTpgZyyjbVCYatxrd2gF8GAZ5WnBAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZh/az8JH1noBPjE/MScyqLM4v1AUdqDVvIAAAA[0mCode_analysis" build number [8mha:////4MsdMvr54iQ92kc171p7NpRLUrIN2Nof4hoQrEg5fDTmAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBhH9rPwkfWegE+MT8xJzKoszi/VNAU7Wvr7JAAAA[0m5
+      originally caused by:
+       Started by upstream project "[8mha:////4LqH7EdSmF7HDwjc6jNFhzqybhyI6hdCMXABODqT85PUAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZB/az8JP3MvJLU9KLEksz8PH0AeslshsYAAAA=[0mintegration" build number [8mha:////4OchiP9Gn0DOFxkkFRNH17zNHrW7OXDa6oWJ0KPvQXr2AAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQAygGfpZ+Un6mXklqelFiSWZ+Xn6RgDPI8aexwAAAA==[0m2
+       originally caused by:
+        Started by upstream project "[8mha:////4GxvcYubNR5LAlEMuTpgZyyjbVCYatxrd2gF8GAZ5WnBAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZh/az8JH1noBPjE/MScyqLM4v1AUdqDVvIAAAA[0mCode_analysis" build number [8mha:////4LtJrVsIDkyhl7qOAmo/DRXfulw0CPR78DtJmtaphvFSAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBhH9rPwkfWegE+MT8xJzKoszi/VNANjmucnJAAAA[0m4
+        originally caused by:
+         Started by upstream project "[8mha:////4MubZcYZh7lrGwGp7exDWpww1stvoto9xcbyWvKDdYiAAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYu/az8JP2S1OISfQCnUQg9vwAAAA==[0mtest" build number [8mha:////4MebVIbEw50OiFbQH031TGuro2F9BH72lr7XzgjRYF6yAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBm79rPwk/ZLU4hJ9EwDG1xsTwAAAAA==[0m4
+         originally caused by:
+          Started by upstream project "[8mha:////4JuZ5cfUmdd8bsMU4+n+hzT3/Nvwb5Fghz0XoOiJYVUAAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZB/az8JP2k0sycFFUjAxAbAG0nihHGAAAA[0mbuild job" build number [8mha:////4EOAeR/xYJc53GDNUfO13pfOb9YRrkBZV7A/8VA9hRzCAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZh/az8JP2k0sycFFUjAxDb0AAAfZiWaMgAAAA=[0m10
+          originally caused by:
+           Started by user [8mha:////4Eg5jz/wC46BzuC549VC2Doz0aycqbSttCqIOzdz5B0SAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/dLi1CL9osS8rMySDAArcnYuwgAAAA==[0mranjith
+          Started by upstream project "[8mha:////4JuZ5cfUmdd8bsMU4+n+hzT3/Nvwb5Fghz0XoOiJYVUAAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZB/az8JP2k0sycFFUjAxAbAG0nihHGAAAA[0mbuild job" build number [8mha:////4EOAeR/xYJc53GDNUfO13pfOb9YRrkBZV7A/8VA9hRzCAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZh/az8JP2k0sycFFUjAxDb0AAAfZiWaMgAAAA=[0m10
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/integration
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/integration/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/devopshydclub/vprofile-project.git # timeout=10
+Fetching upstream changes from https://github.com/devopshydclub/vprofile-project.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/devopshydclub/vprofile-project.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/ci-jenkins^{commit} # timeout=10
+Checking out Revision fcb0a5e28d276af94220da5b88187a246c6ff422 (refs/remotes/origin/ci-jenkins)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f fcb0a5e28d276af94220da5b88187a246c6ff422 # timeout=10
+Commit message: "Jenkins Setup Script updated with new steps"
+ > git rev-list --no-walk fcb0a5e28d276af94220da5b88187a246c6ff422 # timeout=10
+[integration] $ /var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/mvn/bin/mvn verify -DskipUnittests
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.visualpathit:vprofile >----------------------
+[INFO] Building Visualpathit VProfile Webapp v2
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[8mha:////4I0wBuMzjiRWNIFeQfnhzIUy2s9olZFB1IOFik/cEpFxAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ vprofile ---
+[8mha:////4FN1VUoZpHkAtRoHxa8NyDOFpC3TxwRrOTyYQFWR5GTNAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 4 resources
+[INFO] 
+[8mha:////4I0wBuMzjiRWNIFeQfnhzIUy2s9olZFB1IOFik/cEpFxAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- jacoco-maven-plugin:0.7.2.201409121644:prepare-agent (jacoco-initialize) @ vprofile ---
+[8mha:////4FN1VUoZpHkAtRoHxa8NyDOFpC3TxwRrOTyYQFWR5GTNAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] The artifact xml-apis:xml-apis:jar:2.0.2 has been relocated to xml-apis:xml-apis:jar:1.0.b2
+[INFO] argLine set to -javaagent:/var/lib/jenkins/.m2/repository/org/jacoco/org.jacoco.agent/0.7.2.201409121644/org.jacoco.agent-0.7.2.201409121644-runtime.jar=destfile=/var/lib/jenkins/workspace/integration/target/jacoco.exec
+[INFO] 
+[8mha:////4I0wBuMzjiRWNIFeQfnhzIUy2s9olZFB1IOFik/cEpFxAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ vprofile ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[8mha:////4I0wBuMzjiRWNIFeQfnhzIUy2s9olZFB1IOFik/cEpFxAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ vprofile ---
+[8mha:////4FN1VUoZpHkAtRoHxa8NyDOFpC3TxwRrOTyYQFWR5GTNAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/integration/src/test/resources
+[INFO] 
+[8mha:////4I0wBuMzjiRWNIFeQfnhzIUy2s9olZFB1IOFik/cEpFxAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ vprofile ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[8mha:////4I0wBuMzjiRWNIFeQfnhzIUy2s9olZFB1IOFik/cEpFxAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ vprofile ---
+[INFO] Surefire report directory: /var/lib/jenkins/workspace/integration/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.visualpathit.account.controllerTest.SampleTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.526 sec
+Running com.visualpathit.account.controllerTest.UserControllerTest
+08:53:18.671 [main] INFO  o.s.t.w.s.s.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping#532 Mapped "{[/registration],methods=[POST]}" onto public final java.lang.String com.visualpathit.account.controller.UserController.registration(com.visualpathit.account.model.User,org.springframework.validation.BindingResult,org.springframework.ui.Model)
+08:53:18.735 [main] INFO  o.s.t.w.s.s.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping#532 Mapped "{[/registration],methods=[GET]}" onto public final java.lang.String com.visualpathit.account.controller.UserController.registration(org.springframework.ui.Model)
+08:53:18.753 [main] INFO  o.s.t.w.s.s.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping#532 Mapped "{[/login],methods=[GET]}" onto public final java.lang.String com.visualpathit.account.controller.UserController.login(org.springframework.ui.Model,java.lang.String,java.lang.String)
+08:53:18.758 [main] INFO  o.s.t.w.s.s.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping#532 Mapped "{[/ || /welcome],methods=[GET]}" onto public final java.lang.String com.visualpathit.account.controller.UserController.welcome(org.springframework.ui.Model)
+08:53:18.765 [main] INFO  o.s.t.w.s.s.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping#532 Mapped "{[/index],methods=[GET]}" onto public final java.lang.String com.visualpathit.account.controller.UserController.indexHome(org.springframework.ui.Model)
+08:55:23.531 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter#532 Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@20ca951f

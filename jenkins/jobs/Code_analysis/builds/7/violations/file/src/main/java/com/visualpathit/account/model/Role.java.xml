@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file
+  name="src/main/java/com/visualpathit/account/model/Role.java"
+  last-modified="1642052726959"
+  file="/var/lib/jenkins/workspace/Code_analysis/src/main/java/com/visualpathit/account/model/Role.java"
+>
+  <violation
+    line="3"
+    source="AvoidStarImportCheck"
+    severity="High"
+    type="checkstyle"
+    message="Using the '.*' form of import should be avoided - javax.persistence.*."
+    severity-level="0"
+    popup-message="Using the '.*' form of import should be avoided - javax.persistence.*."
+  />
+  <violation
+    line="9"
+    source="FileTabCharacterCheck"
+    severity="High"
+    type="checkstyle"
+    message="File contains tab characters (this is the first instance)."
+    severity-level="0"
+    popup-message="File contains tab characters (this is the first instance)."
+  />
+  <violation
+    line="18"
+    source="InvalidJavadocPositionCheck"
+    severity="High"
+    type="checkstyle"
+    message="Javadoc comment is placed in the wrong location."
+    severity-level="0"
+    popup-message="Javadoc comment is placed in the wrong location."
+  />
+  <violation
+    line="25"
+    source="HiddenFieldCheck"
+    severity="High"
+    type="checkstyle"
+    message="'id' hides a field."
+    severity-level="0"
+    popup-message="'id' hides a field."
+  />
+  <violation
+    line="31"
+    source="JavadocMethodCheck"
+    severity="High"
+    type="checkstyle"
+    message="Expected @return tag."
+    severity-level="0"
+    popup-message="Expected @return tag."
+  />
+  <violation
+    line="35"
+    source="HiddenFieldCheck"
+    severity="High"
+    type="checkstyle"
+    message="'name' hides a field."
+    severity-level="0"
+    popup-message="'name' hides a field."
+  />
+  <violation
+    line="39"
+    source="RegexpSinglelineCheck"
+    severity="High"
+    type="checkstyle"
+    message="Line has trailing spaces."
+    severity-level="0"
+    popup-message="Line has trailing spaces."
+  />
+  <violation
+    line="42"
+    source="InvalidJavadocPositionCheck"
+    severity="High"
+    type="checkstyle"
+    message="Javadoc comment is placed in the wrong location."
+    severity-level="0"
+    popup-message="Javadoc comment is placed in the wrong location."
+  />
+  <violation
+    line="49"
+    source="RegexpSinglelineCheck"
+    severity="High"
+    type="checkstyle"
+    message="Line has trailing spaces."
+    severity-level="0"
+    popup-message="Line has trailing spaces."
+  />
+  <violation
+    line="51"
+    source="HiddenFieldCheck"
+    severity="High"
+    type="checkstyle"
+    message="'users' hides a field."
+    severity-level="0"
+    popup-message="'users' hides a field."
+  />
+  <violation
+    line="51"
+    source="FinalParametersCheck"
+    severity="High"
+    type="checkstyle"
+    message="Parameter users should be final."
+    severity-level="0"
+    popup-message="Parameter users should be final."
+  />
+  <line number='1'>package com.visualpathit.account.model;</line>
+  <line number='2'></line>
+  <line number='3'>import javax.persistence.*;</line>
+  <line number='4'>import java.util.Set;</line>
+  <line number='5'>/**{@author waheedk} !*/</line>
+  <line number='6'>@Entity</line>
+  <line number='7'>@Table(name = "role")</line>
+  <line number='8'>public class Role {</line>
+  <line number='9'>	/** the id field !*/</line>
+  <line number='10'>    private Long id;</line>
+  <line number='11'>    /** the name field !*/</line>
+  <line number='12'>    private String name;</line>
+  <line number='13'>    /** the user field !*/</line>
+  <line number='14'>    private Set&lt;User&gt; users;</line>
+  <line number='15'>    /** {@inheritDoc}} !*/</line>
+  <line number='16'>    @Id</line>
+  <line number='17'>    @GeneratedValue(strategy = GenerationType.AUTO)</line>
+  <line number='18'>    /**</line>
+  <line number='19'>     * {@link Role#id}</line>
+  <line number='20'>     !*/</line>
+  <line number='21'>    public Long getId() {</line>
+  <line number='22'>        return id;</line>
+  <line number='23'>    }</line>
+  <line number='24'>    /** {@inheritDoc}} !*/</line>
+  <line number='25'>    public final void setId(final Long id) {</line>
+  <line number='26'>        this.id = id;</line>
+  <line number='27'>    }</line>
+  <line number='28'>    /**</line>
+  <line number='29'>     * {@link Role#name}</line>
+  <line number='30'>     !*/</line>
+  <line number='31'>    public String getName() {</line>
+  <line number='32'>        return name;</line>
+  <line number='33'>    }</line>
+  <line number='34'>    /** {@inheritDoc}} !*/</line>
+  <line number='35'>    public final void setName(final String name) {</line>
+  <line number='36'>        this.name = name;</line>
+  <line number='37'>    }</line>
+  <line number='38'>    /**</line>
+  <line number='39'>     * {@inheritDoc}} </line>
+  <line number='40'>     !*/</line>
+  <line number='41'>    @ManyToMany(mappedBy = "roles")</line>
+  <line number='42'>    /**</line>
+  <line number='43'>     * {@link Role#id}</line>
+  <line number='44'>     !*/</line>
+  <line number='45'>    public Set&lt;User&gt; getUsers() {</line>
+  <line number='46'>        return users;</line>
+  <line number='47'>    }</line>
+  <line number='48'>    /**</line>
+  <line number='49'>     * {@inheritDoc}} </line>
+  <line number='50'>     !*/</line>
+  <line number='51'>    public final void setUsers(Set&lt;User&gt; users) {</line>
+  <line number='52'>        this.users = users;</line>
+  <line number='53'>    }</line>
+  <line number='54'>}</line>
+  <type type='checkstyle' number='11' suppressed='0'/>
+</file>

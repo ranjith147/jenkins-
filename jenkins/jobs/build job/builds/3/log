@@ -1,0 +1,41 @@
+Started by user [8mha:////4Eg5jz/wC46BzuC549VC2Doz0aycqbSttCqIOzdz5B0SAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/dLi1CL9osS8rMySDAArcnYuwgAAAA==[0mranjith
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/build job
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/build job/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/devopshydclub/vprofile-project.git # timeout=10
+Fetching upstream changes from https://github.com/devopshydclub/vprofile-project.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/devopshydclub/vprofile-project.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/ci-jenkins^{commit} # timeout=10
+Checking out Revision ec33ab8dd2deb6a8b936f97eb4887646c4af1381 (refs/remotes/origin/ci-jenkins)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ec33ab8dd2deb6a8b936f97eb4887646c4af1381 # timeout=10
+Commit message: "Fixed, Certificate verification failed error."
+ > git rev-list --no-walk ec33ab8dd2deb6a8b936f97eb4887646c4af1381 # timeout=10
+Unpacking https://repo.maven.apache.org/maven2/org/apache/maven/apache-maven/3.8.4/apache-maven-3.8.4-bin.zip to /var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/mvn on Jenkins
+[build job] $ /var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/mvn/bin/mvn -s "/var/lib/jenkins/workspace/build job/settings.xml" -gs "/var/lib/jenkins/workspace/build job/settings.xml" -DNEXUS-USER=admin -DSNAP-REPO=vprofile-snapshot -DRELEASE-REPO=vprofile-release -DNEXUSIP=172.31.82.22 -DNEXUS-PASS=ranjith -DNEXUSPORT=8081 -DNEXUS-GRP-REPO=vpro-maven-group -DCENTRAL-REPO=vpro-maven-central install -DskipTests
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.visualpathit:vprofile >----------------------
+[INFO] Building Visualpathit VProfile Webapp v2
+[INFO] --------------------------------[ war ]---------------------------------
+[8mha:////4FN1VUoZpHkAtRoHxa8NyDOFpC3TxwRrOTyYQFWR5GTNAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] The POM for org.apache.maven.plugins:maven-resources-plugin:jar:2.6 is missing, no dependency information available
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.202 s
+[INFO] Finished at: 2022-01-11T09:33:54Z
+[INFO] ------------------------------------------------------------------------
+[8mha:////4KXwoxq0xR/11Jnm10sCQpH268ALskJ+LdA34fmS0hGrAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] Plugin org.apache.maven.plugins:maven-resources-plugin:2.6 or one of its dependencies could not be resolved: org.apache.maven.plugins:maven-resources-plugin:jar:2.6 was not found in http://172.31.82.22:8081/repository/vpro-maven-group/ during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of vpro-maven-central has elapsed or updates are forced -> [Help 1]
+[8mha:////4KXwoxq0xR/11Jnm10sCQpH268ALskJ+LdA34fmS0hGrAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 
+[8mha:////4KXwoxq0xR/11Jnm10sCQpH268ALskJ+LdA34fmS0hGrAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[8mha:////4KXwoxq0xR/11Jnm10sCQpH268ALskJ+LdA34fmS0hGrAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[8mha:////4KXwoxq0xR/11Jnm10sCQpH268ALskJ+LdA34fmS0hGrAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 
+[8mha:////4KXwoxq0xR/11Jnm10sCQpH268ALskJ+LdA34fmS0hGrAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[8mha:////4KXwoxq0xR/11Jnm10sCQpH268ALskJ+LdA34fmS0hGrAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/PluginResolutionException
+Build step 'Invoke top-level Maven targets' marked build as failure
+Finished: FAILURE

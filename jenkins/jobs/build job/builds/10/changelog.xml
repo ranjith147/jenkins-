@@ -1,0 +1,9 @@
+commit fcb0a5e28d276af94220da5b88187a246c6ff422
+tree 80e743ad36cc953d11e318800e2390ebbaa8e170
+parent ec33ab8dd2deb6a8b936f97eb4887646c4af1381
+author devopshydclub <46835275+devopshydclub@users.noreply.github.com> 2022-01-23 10:33:54 +0530
+committer GitHub <noreply@github.com> 2022-01-23 10:33:54 +0530
+
+    Jenkins Setup Script updated with new steps
+
+:100644 100644 ef95b8f7b299030337c55d170a8720a0a2f43d98 9245f2f12469ab080fbf70524a00d2936630d10a M	userdata/jenkins-setup.sh

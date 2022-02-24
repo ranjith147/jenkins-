@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-01-13 06:33:26.785 UTC</timestamp>
+  <original>
+    <name>build job</name>
+    <number>7</number>
+  </original>
+  <md5sum>fe01df327af3d32b5eedcef4f919c138</md5sum>
+  <fileName>vprofile-v2.war</fileName>
+  <usages>
+    <entry>
+      <string>deploy staging</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>build job</string>
+      <ranges>7</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

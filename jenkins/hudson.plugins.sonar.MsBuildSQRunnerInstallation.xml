@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<hudson.plugins.sonar.MsBuildSQRunnerInstallation_-DescriptorImpl plugin="sonar@2.14">
+  <installations class="hudson.plugins.sonar.MsBuildSQRunnerInstallation-array">
+    <hudson.plugins.sonar.MsBuildSQRunnerInstallation>
+      <name>sonar-5.4.1.41282</name>
+      <properties>
+        <hudson.tools.InstallSourceProperty>
+          <installers>
+            <hudson.plugins.sonar.MsBuildSonarQubeRunnerInstaller>
+              <id>5.4.1.41282</id>
+            </hudson.plugins.sonar.MsBuildSonarQubeRunnerInstaller>
+          </installers>
+        </hudson.tools.InstallSourceProperty>
+      </properties>
+    </hudson.plugins.sonar.MsBuildSQRunnerInstallation>
+  </installations>
+</hudson.plugins.sonar.MsBuildSQRunnerInstallation_-DescriptorImpl>

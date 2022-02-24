@@ -1,0 +1,45 @@
+Started by user [8mha:////4Eg5jz/wC46BzuC549VC2Doz0aycqbSttCqIOzdz5B0SAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/dLi1CL9osS8rMySDAArcnYuwgAAAA==[0mranjith
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/build job
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/devopshydclub/vprofile-project.git
+ > git init /var/lib/jenkins/workspace/build job # timeout=10
+Fetching upstream changes from https://github.com/devopshydclub/vprofile-project.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/devopshydclub/vprofile-project.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/devopshydclub/vprofile-project.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/ci-jenkins^{commit} # timeout=10
+Checking out Revision ec33ab8dd2deb6a8b936f97eb4887646c4af1381 (refs/remotes/origin/ci-jenkins)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ec33ab8dd2deb6a8b936f97eb4887646c4af1381 # timeout=10
+Commit message: "Fixed, Certificate verification failed error."
+First time build. Skipping changelog.
+[build job] $ mvn -s "/var/lib/jenkins/workspace/build job/settings.xml" -DNEXUS-USER=admin -DSNAP-REPO=vprofile-snapshot -DRELEASE-REPO=vprofile-release -DNEXUSIP=172.31.82.22 -DNEXUS-PASS=ranjith -DNEXUSPORT=8081 -DNEXUS-GRP-REPO=vpro-maven-group -DCENTRAL-REPO=vpro-maven-central install -DskipTests
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------------< [0;36mcom.visualpathit:vprofile[0;1m >----------------------[m
+[[1;34mINFO[m] [1mBuilding Visualpathit VProfile Webapp v2[m
+[[1;34mINFO[m] [1m--------------------------------[ war ]---------------------------------[m
+Downloading from vpro-maven-central: http://172.31.82.22:8081/repository/vpro-maven-group/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.pom
+[[1;33mWARNING[m] The POM for org.apache.maven.plugins:maven-resources-plugin:jar:2.6 is missing, no dependency information available
+Downloading from vpro-maven-central: http://172.31.82.22:8081/repository/vpro-maven-group/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.jar
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  1.413 s
+[[1;34mINFO[m] Finished at: 2022-01-11T09:20:37Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Plugin org.apache.maven.plugins:maven-resources-plugin:2.6 or one of its dependencies could not be resolved: Could not find artifact org.apache.maven.plugins:maven-resources-plugin:jar:2.6 in vpro-maven-central (http://172.31.82.22:8081/repository/vpro-maven-group/) -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/PluginResolutionException
+Build step 'Invoke top-level Maven targets' marked build as failure
+Finished: FAILURE

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file
+  name="src/main/java/com/visualpathit/account/service/UserService.java"
+  last-modified="1642052726959"
+  file="/var/lib/jenkins/workspace/Code_analysis/src/main/java/com/visualpathit/account/service/UserService.java"
+>
+  <violation
+    line="7"
+    source="FileTabCharacterCheck"
+    severity="High"
+    type="checkstyle"
+    message="File contains tab characters (this is the first instance)."
+    severity-level="0"
+    popup-message="File contains tab characters (this is the first instance)."
+  />
+  <line number='1'>package com.visualpathit.account.service;</line>
+  <line number='2'></line>
+  <line number='3'>import com.visualpathit.account.model.User;</line>
+  <line number='4'></line>
+  <line number='5'>/** {@author waheedk}!*/</line>
+  <line number='6'>public interface UserService {</line>
+  <line number='7'>	/** {@inheritDoc}} !*/</line>
+  <line number='8'>    void save(User user);</line>
+  <line number='9'>    /** {@inheritDoc}} !*/</line>
+  <line number='10'>    User findByUsername(String username);</line>
+  <line number='11'>}</line>
+  <type type='checkstyle' number='1' suppressed='0'/>
+</file>

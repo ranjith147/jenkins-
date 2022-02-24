@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file
+  name="src/main/java/com/visualpathit/account/model/User.java"
+  last-modified="1642052726959"
+  file="/var/lib/jenkins/workspace/Code_analysis/src/main/java/com/visualpathit/account/model/User.java"
+>
+  <violation
+    line="1"
+    source="JavadocPackageCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing package-info.java file."
+    severity-level="0"
+    popup-message="Missing package-info.java file."
+  />
+  <violation
+    line="4"
+    source="AvoidStarImportCheck"
+    severity="High"
+    type="checkstyle"
+    message="Using the '.*' form of import should be avoided - javax.persistence.*."
+    severity-level="0"
+    popup-message="Using the '.*' form of import should be avoided - javax.persistence.*."
+  />
+  <violation
+    line="10"
+    source="FileTabCharacterCheck"
+    severity="High"
+    type="checkstyle"
+    message="File contains tab characters (this is the first instance)."
+    severity-level="0"
+    popup-message="File contains tab characters (this is the first instance)."
+  />
+  <violation
+    line="25"
+    source="InvalidJavadocPositionCheck"
+    severity="High"
+    type="checkstyle"
+    message="Javadoc comment is placed in the wrong location."
+    severity-level="0"
+    popup-message="Javadoc comment is placed in the wrong location."
+  />
+  <violation
+    line="30"
+    source="HiddenFieldCheck"
+    severity="High"
+    type="checkstyle"
+    message="'id' hides a field."
+    severity-level="0"
+    popup-message="'id' hides a field."
+  />
+  <violation
+    line="38"
+    source="HiddenFieldCheck"
+    severity="High"
+    type="checkstyle"
+    message="'username' hides a field."
+    severity-level="0"
+    popup-message="'username' hides a field."
+  />
+  <violation
+    line="41"
+    source="JavadocStyleCheck"
+    severity="High"
+    type="checkstyle"
+    message="First sentence should end with a period."
+    severity-level="0"
+    popup-message="First sentence should end with a period."
+  />
+  <violation
+    line="49"
+    source="RegexpSinglelineCheck"
+    severity="High"
+    type="checkstyle"
+    message="Line has trailing spaces."
+    severity-level="0"
+    popup-message="Line has trailing spaces."
+  />
+  <violation
+    line="51"
+    source="HiddenFieldCheck"
+    severity="High"
+    type="checkstyle"
+    message="'password' hides a field."
+    severity-level="0"
+    popup-message="'password' hides a field."
+  />
+  <violation
+    line="54"
+    source="JavadocStyleCheck"
+    severity="High"
+    type="checkstyle"
+    message="First sentence should end with a period."
+    severity-level="0"
+    popup-message="First sentence should end with a period."
+  />
+  <violation
+    line="62"
+    source="HiddenFieldCheck"
+    severity="High"
+    type="checkstyle"
+    message="'userEmail' hides a field."
+    severity-level="0"
+    popup-message="'userEmail' hides a field."
+  />
+  <violation
+    line="68"
+    source="InvalidJavadocPositionCheck"
+    severity="High"
+    type="checkstyle"
+    message="Javadoc comment is placed in the wrong location."
+    severity-level="0"
+    popup-message="Javadoc comment is placed in the wrong location."
+  />
+  <violation
+    line="75"
+    source="HiddenFieldCheck"
+    severity="High"
+    type="checkstyle"
+    message="'passwordConfirm' hides a field."
+    severity-level="0"
+    popup-message="'passwordConfirm' hides a field."
+  />
+  <violation
+    line="80"
+    source="LineLengthCheck"
+    severity="High"
+    type="checkstyle"
+    message="Line is longer than 80 characters (found 131)."
+    severity-level="0"
+    popup-message="Line is longer than 80 characters (found 131)."
+  />
+  <violation
+    line="85"
+    source="HiddenFieldCheck"
+    severity="High"
+    type="checkstyle"
+    message="'roles' hides a field."
+    severity-level="0"
+    popup-message="'roles' hides a field."
+  />
+  <line number='1'>package com.visualpathit.account.model;</line>
+  <line number='2'></line>
+  <line number='3'></line>
+  <line number='4'>import javax.persistence.*;</line>
+  <line number='5'>import java.util.Set;</line>
+  <line number='6'>/**{@author waheedk} !*/</line>
+  <line number='7'>@Entity</line>
+  <line number='8'>@Table(name = "user")</line>
+  <line number='9'>public class User {</line>
+  <line number='10'>	/** the id field !*/</line>
+  <line number='11'>    private Long id;</line>
+  <line number='12'>    /** the user name field !*/</line>
+  <line number='13'>    private String username;</line>
+  <line number='14'>    /** the password field !*/</line>
+  <line number='15'>    private String password;</line>
+  <line number='16'>    /** the userEmail field !*/</line>
+  <line number='17'>    private String userEmail;</line>
+  <line number='18'>    /** the passwordConfirm field !*/</line>
+  <line number='19'>    private String passwordConfirm;</line>
+  <line number='20'>    /** the roles field !*/</line>
+  <line number='21'>    private Set&lt;Role&gt; roles;</line>
+  <line number='22'>    /** {@inheritDoc}} !*/</line>
+  <line number='23'>    @Id</line>
+  <line number='24'>    @GeneratedValue(strategy = GenerationType.AUTO)</line>
+  <line number='25'>    /** {@link User#id} */</line>
+  <line number='26'>    public Long getId() {</line>
+  <line number='27'>        return id;</line>
+  <line number='28'>    }</line>
+  <line number='29'>    /** {@inheritDoc}} !*/</line>
+  <line number='30'>    public final void setId(final Long id) {</line>
+  <line number='31'>        this.id = id;</line>
+  <line number='32'>    }</line>
+  <line number='33'>    /**{@inheritDoc}} !*/</line>
+  <line number='34'>    public String getUsername() {</line>
+  <line number='35'>        return username;</line>
+  <line number='36'>    }</line>
+  <line number='37'>    /** {@inheritDoc}} !*/</line>
+  <line number='38'>    public final void setUsername(final String username) {</line>
+  <line number='39'>        this.username = username;</line>
+  <line number='40'>    }</line>
+  <line number='41'>    /**</line>
+  <line number='42'>     * {@link User#password}</line>
+  <line number='43'>     * @return The {@link String} instance representing password</line>
+  <line number='44'>     !*/</line>
+  <line number='45'>    public String getPassword() {</line>
+  <line number='46'>        return password;</line>
+  <line number='47'>    }</line>
+  <line number='48'>    /**</line>
+  <line number='49'>     * {@inheritDoc}} </line>
+  <line number='50'>     !*/</line>
+  <line number='51'>    public final void setPassword(final String password) {</line>
+  <line number='52'>        this.password = password;</line>
+  <line number='53'>    }</line>
+  <line number='54'>    /**</line>
+  <line number='55'>     * {@link User#userEmail}</line>
+  <line number='56'>     * @return The {@link String} instance representing userEmail.</line>
+  <line number='57'>     !*/</line>
+  <line number='58'>    public String getUserEmail() {</line>
+  <line number='59'>		return userEmail;</line>
+  <line number='60'>	}</line>
+  <line number='61'>    /** {@inheritDoc}} !*/</line>
+  <line number='62'>	public final void setUserEmail(final String userEmail) {</line>
+  <line number='63'>		this.userEmail = userEmail;</line>
+  <line number='64'>	}</line>
+  <line number='65'></line>
+  <line number='66'>	 /** {@inheritDoc}} !*/</line>
+  <line number='67'>	@Transient</line>
+  <line number='68'>	/**</line>
+  <line number='69'>     * {@link User#passwordConfirm}</line>
+  <line number='70'>     !*/</line>
+  <line number='71'>    public String getPasswordConfirm() {</line>
+  <line number='72'>        return passwordConfirm;</line>
+  <line number='73'>    }</line>
+  <line number='74'>	 /** {@inheritDoc}} !*/</line>
+  <line number='75'>    public final void setPasswordConfirm(final String passwordConfirm) {</line>
+  <line number='76'>        this.passwordConfirm = passwordConfirm;</line>
+  <line number='77'>    }</line>
+  <line number='78'>    /** {@inheritDoc}} !*/</line>
+  <line number='79'>    @ManyToMany</line>
+  <line number='80'>    @JoinTable(name = "user_role", joinColumns = @JoinColumn(name = "user_id"), inverseJoinColumns = @JoinColumn(name = "role_id"))</line>
+  <line number='81'>    public Set&lt;Role&gt; getRoles() {</line>
+  <line number='82'>        return roles;</line>
+  <line number='83'>    }</line>
+  <line number='84'>    /** {@inheritDoc}} !*/</line>
+  <line number='85'>    public final void setRoles(final Set&lt;Role&gt; roles) {</line>
+  <line number='86'>        this.roles = roles;</line>
+  <line number='87'>    }</line>
+  <line number='88'>}</line>
+  <type type='checkstyle' number='15' suppressed='0'/>
+</file>

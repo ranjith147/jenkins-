@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file
+  name="src/main/java/com/visualpathit/account/validator/UserValidator.java"
+  last-modified="1642052726959"
+  file="/var/lib/jenkins/workspace/Code_analysis/src/main/java/com/visualpathit/account/validator/UserValidator.java"
+>
+  <violation
+    line="1"
+    source="JavadocPackageCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing package-info.java file."
+    severity-level="0"
+    popup-message="Missing package-info.java file."
+  />
+  <violation
+    line="14"
+    source="JavadocVariableCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="17"
+    source="DesignForExtensionCheck"
+    severity="High"
+    type="checkstyle"
+    message="Class 'UserValidator' looks like designed for extension (can be subclassed), but the method 'supports' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'UserValidator' final or making the method 'supports' static/final/abstract/empty, or adding allowed annotation for the method."
+    severity-level="0"
+    popup-message="Class 'UserValidator' looks like designed for extension (can be subclassed), but the method 'supports' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'UserValidator' final or making the method 'supports' static/final/abstract/empty, or adding allowed annotation for the method."
+  />
+  <violation
+    line="18"
+    source="FinalParametersCheck"
+    severity="High"
+    type="checkstyle"
+    message="Parameter aClass should be final."
+    severity-level="0"
+    popup-message="Parameter aClass should be final."
+  />
+  <violation
+    line="22"
+    source="DesignForExtensionCheck"
+    severity="High"
+    type="checkstyle"
+    message="Class 'UserValidator' looks like designed for extension (can be subclassed), but the method 'validate' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'UserValidator' final or making the method 'validate' static/final/abstract/empty, or adding allowed annotation for the method."
+    severity-level="0"
+    popup-message="Class 'UserValidator' looks like designed for extension (can be subclassed), but the method 'validate' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'UserValidator' final or making the method 'validate' static/final/abstract/empty, or adding allowed annotation for the method."
+  />
+  <violation
+    line="23"
+    source="FinalParametersCheck"
+    severity="High"
+    type="checkstyle"
+    message="Parameter errors should be final."
+    severity-level="0"
+    popup-message="Parameter errors should be final."
+  />
+  <violation
+    line="23"
+    source="FinalParametersCheck"
+    severity="High"
+    type="checkstyle"
+    message="Parameter o should be final."
+    severity-level="0"
+    popup-message="Parameter o should be final."
+  />
+  <violation
+    line="26"
+    source="LineLengthCheck"
+    severity="High"
+    type="checkstyle"
+    message="Line is longer than 80 characters (found 82)."
+    severity-level="0"
+    popup-message="Line is longer than 80 characters (found 82)."
+  />
+  <violation
+    line="27"
+    source="MagicNumberCheck"
+    severity="High"
+    type="checkstyle"
+    message="'32' is a magic number."
+    severity-level="0"
+    popup-message="'32' is a magic number."
+  />
+  <violation
+    line="27"
+    source="MagicNumberCheck"
+    severity="High"
+    type="checkstyle"
+    message="'6' is a magic number."
+    severity-level="0"
+    popup-message="'6' is a magic number."
+  />
+  <violation
+    line="27"
+    source="LineLengthCheck"
+    severity="High"
+    type="checkstyle"
+    message="Line is longer than 80 characters (found 82)."
+    severity-level="0"
+    popup-message="Line is longer than 80 characters (found 82)."
+  />
+  <violation
+    line="34"
+    source="LineLengthCheck"
+    severity="High"
+    type="checkstyle"
+    message="Line is longer than 80 characters (found 82)."
+    severity-level="0"
+    popup-message="Line is longer than 80 characters (found 82)."
+  />
+  <violation
+    line="35"
+    source="MagicNumberCheck"
+    severity="High"
+    type="checkstyle"
+    message="'32' is a magic number."
+    severity-level="0"
+    popup-message="'32' is a magic number."
+  />
+  <violation
+    line="35"
+    source="MagicNumberCheck"
+    severity="High"
+    type="checkstyle"
+    message="'8' is a magic number."
+    severity-level="0"
+    popup-message="'8' is a magic number."
+  />
+  <violation
+    line="35"
+    source="LineLengthCheck"
+    severity="High"
+    type="checkstyle"
+    message="Line is longer than 80 characters (found 82)."
+    severity-level="0"
+    popup-message="Line is longer than 80 characters (found 82)."
+  />
+  <violation
+    line="40"
+    source="LineLengthCheck"
+    severity="High"
+    type="checkstyle"
+    message="Line is longer than 80 characters (found 83)."
+    severity-level="0"
+    popup-message="Line is longer than 80 characters (found 83)."
+  />
+  <line number='1'>package com.visualpathit.account.validator;</line>
+  <line number='2'></line>
+  <line number='3'>import com.visualpathit.account.model.User;</line>
+  <line number='4'>import com.visualpathit.account.service.UserService;</line>
+  <line number='5'></line>
+  <line number='6'>import org.springframework.beans.factory.annotation.Autowired;</line>
+  <line number='7'>import org.springframework.stereotype.Component;</line>
+  <line number='8'>import org.springframework.validation.Errors;</line>
+  <line number='9'>import org.springframework.validation.ValidationUtils;</line>
+  <line number='10'>import org.springframework.validation.Validator;</line>
+  <line number='11'></line>
+  <line number='12'>@Component</line>
+  <line number='13'>public class UserValidator implements Validator {</line>
+  <line number='14'>    @Autowired</line>
+  <line number='15'>    private UserService userService;</line>
+  <line number='16'></line>
+  <line number='17'>    @Override</line>
+  <line number='18'>    public boolean supports(Class&lt;?&gt; aClass) {</line>
+  <line number='19'>        return User.class.equals(aClass);</line>
+  <line number='20'>    }</line>
+  <line number='21'></line>
+  <line number='22'>    @Override</line>
+  <line number='23'>    public void validate(Object o, Errors errors) {</line>
+  <line number='24'>        User user = (User) o;</line>
+  <line number='25'></line>
+  <line number='26'>        ValidationUtils.rejectIfEmptyOrWhitespace(errors, "username", "NotEmpty");</line>
+  <line number='27'>        if (user.getUsername().length() &lt; 6 || user.getUsername().length() &gt; 32) {</line>
+  <line number='28'>            errors.rejectValue("username", "Size.userForm.username");</line>
+  <line number='29'>        }</line>
+  <line number='30'>        if (userService.findByUsername(user.getUsername()) != null) {</line>
+  <line number='31'>            errors.rejectValue("username", "Duplicate.userForm.username");</line>
+  <line number='32'>        }</line>
+  <line number='33'></line>
+  <line number='34'>        ValidationUtils.rejectIfEmptyOrWhitespace(errors, "password", "NotEmpty");</line>
+  <line number='35'>        if (user.getPassword().length() &lt; 8 || user.getPassword().length() &gt; 32) {</line>
+  <line number='36'>            errors.rejectValue("password", "Size.userForm.password");</line>
+  <line number='37'>        }</line>
+  <line number='38'></line>
+  <line number='39'>        if (!user.getPasswordConfirm().equals(user.getPassword())) {</line>
+  <line number='40'>            errors.rejectValue("passwordConfirm", "Diff.userForm.passwordConfirm");</line>
+  <line number='41'>        }</line>
+  <line number='42'>    }</line>
+  <line number='43'>}</line>
+  <type type='checkstyle' number='16' suppressed='0'/>
+</file>

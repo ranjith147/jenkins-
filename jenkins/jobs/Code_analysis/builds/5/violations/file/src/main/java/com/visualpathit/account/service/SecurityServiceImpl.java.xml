@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file
+  name="src/main/java/com/visualpathit/account/service/SecurityServiceImpl.java"
+  last-modified="1642052726959"
+  file="/var/lib/jenkins/workspace/Code_analysis/src/main/java/com/visualpathit/account/service/SecurityServiceImpl.java"
+>
+  <violation
+    line="8"
+    source="FileTabCharacterCheck"
+    severity="High"
+    type="checkstyle"
+    message="File contains tab characters (this is the first instance)."
+    severity-level="0"
+    popup-message="File contains tab characters (this is the first instance)."
+  />
+  <violation
+    line="8"
+    source="LineLengthCheck"
+    severity="High"
+    type="checkstyle"
+    message="Line is longer than 80 characters (found 104)."
+    severity-level="0"
+    popup-message="Line is longer than 80 characters (found 104)."
+  />
+  <violation
+    line="24"
+    source="ConstantNameCheck"
+    severity="High"
+    type="checkstyle"
+    message="Name 'logger' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'."
+    severity-level="0"
+    popup-message="Name 'logger' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'."
+  />
+  <violation
+    line="25"
+    source="LineLengthCheck"
+    severity="High"
+    type="checkstyle"
+    message="Line is longer than 80 characters (found 86)."
+    severity-level="0"
+    popup-message="Line is longer than 80 characters (found 86)."
+  />
+  <violation
+    line="27"
+    source="DesignForExtensionCheck"
+    severity="High"
+    type="checkstyle"
+    message="Class 'SecurityServiceImpl' looks like designed for extension (can be subclassed), but the method 'findLoggedInUsername' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SecurityServiceImpl' final or making the method 'findLoggedInUsername' static/final/abstract/empty, or adding allowed annotation for the method."
+    severity-level="0"
+    popup-message="Class 'SecurityServiceImpl' looks like designed for extension (can be subclassed), but the method 'findLoggedInUsername' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SecurityServiceImpl' final or making the method 'findLoggedInUsername' static/final/abstract/empty, or adding allowed annotation for the method."
+  />
+  <violation
+    line="30"
+    source="LineLengthCheck"
+    severity="High"
+    type="checkstyle"
+    message="Line is longer than 80 characters (found 82)."
+    severity-level="0"
+    popup-message="Line is longer than 80 characters (found 82)."
+  />
+  <violation
+    line="38"
+    source="DesignForExtensionCheck"
+    severity="High"
+    type="checkstyle"
+    message="Class 'SecurityServiceImpl' looks like designed for extension (can be subclassed), but the method 'autologin' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SecurityServiceImpl' final or making the method 'autologin' static/final/abstract/empty, or adding allowed annotation for the method."
+    severity-level="0"
+    popup-message="Class 'SecurityServiceImpl' looks like designed for extension (can be subclassed), but the method 'autologin' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SecurityServiceImpl' final or making the method 'autologin' static/final/abstract/empty, or adding allowed annotation for the method."
+  />
+  <violation
+    line="40"
+    source="LineLengthCheck"
+    severity="High"
+    type="checkstyle"
+    message="Line is longer than 80 characters (found 82)."
+    severity-level="0"
+    popup-message="Line is longer than 80 characters (found 82)."
+  />
+  <violation
+    line="41"
+    source="RegexpSinglelineCheck"
+    severity="High"
+    type="checkstyle"
+    message="Line has trailing spaces."
+    severity-level="0"
+    popup-message="Line has trailing spaces."
+  />
+  <violation
+    line="41"
+    source="LineLengthCheck"
+    severity="High"
+    type="checkstyle"
+    message="Line is longer than 80 characters (found 82)."
+    severity-level="0"
+    popup-message="Line is longer than 80 characters (found 82)."
+  />
+  <violation
+    line="42"
+    source="LineLengthCheck"
+    severity="High"
+    type="checkstyle"
+    message="Line is longer than 80 characters (found 101)."
+    severity-level="0"
+    popup-message="Line is longer than 80 characters (found 101)."
+  />
+  <violation
+    line="49"
+    source="LineLengthCheck"
+    severity="High"
+    type="checkstyle"
+    message="Line is longer than 80 characters (found 81)."
+    severity-level="0"
+    popup-message="Line is longer than 80 characters (found 81)."
+  />
+  <line number='1'>package com.visualpathit.account.service;</line>
+  <line number='2'></line>
+  <line number='3'>import org.slf4j.Logger;</line>
+  <line number='4'>import org.slf4j.LoggerFactory;</line>
+  <line number='5'>import org.springframework.beans.factory.annotation.Autowired;</line>
+  <line number='6'>import org.springframework.security.authentication.AuthenticationManager;</line>
+  <line number='7'>import org.springframework.security.authentication</line>
+  <line number='8'>								   .UsernamePasswordAuthenticationToken;</line>
+  <line number='9'>import org.springframework.security.core.context.SecurityContextHolder;</line>
+  <line number='10'>import org.springframework.security.core.userdetails.UserDetails;</line>
+  <line number='11'>import org.springframework.security.core.userdetails.UserDetailsService;</line>
+  <line number='12'>import org.springframework.stereotype.Service;</line>
+  <line number='13'>/** {@author waheedk} !*/</line>
+  <line number='14'>@Service</line>
+  <line number='15'>public class SecurityServiceImpl implements SecurityService {</line>
+  <line number='16'>    /** authenticationManager !*/</line>
+  <line number='17'>	@Autowired</line>
+  <line number='18'>    private AuthenticationManager authenticationManager;</line>
+  <line number='19'>	/** userDetailsService !*/</line>
+  <line number='20'>    @Autowired</line>
+  <line number='21'>    private UserDetailsService userDetailsService;</line>
+  <line number='22'></line>
+  <line number='23'>    /** Logger creation !*/</line>
+  <line number='24'>    private static final Logger logger = LoggerFactory</line>
+  <line number='25'>    						.getLogger(SecurityServiceImpl.class);</line>
+  <line number='26'></line>
+  <line number='27'>    @Override</line>
+  <line number='28'>    public String findLoggedInUsername() {</line>
+  <line number='29'>        Object userDetails = SecurityContextHolder.getContext()</line>
+  <line number='30'>        					.getAuthentication().getDetails();</line>
+  <line number='31'>        if (userDetails instanceof UserDetails) {</line>
+  <line number='32'>            return ((UserDetails) userDetails).getUsername();</line>
+  <line number='33'>        }</line>
+  <line number='34'></line>
+  <line number='35'>        return null;</line>
+  <line number='36'>    }</line>
+  <line number='37'></line>
+  <line number='38'>    @Override</line>
+  <line number='39'>    public void autologin(final String username, final String password) {</line>
+  <line number='40'>        UserDetails userDetails = userDetailsService.loadUserByUsername(username);</line>
+  <line number='41'>        UsernamePasswordAuthenticationToken usernamePasswordAuthenticationToken = </line>
+  <line number='42'>        new UsernamePasswordAuthenticationToken(userDetails, password, userDetails.getAuthorities());</line>
+  <line number='43'></line>
+  <line number='44'>        authenticationManager.authenticate(usernamePasswordAuthenticationToken);</line>
+  <line number='45'></line>
+  <line number='46'>        if (usernamePasswordAuthenticationToken.isAuthenticated()) {</line>
+  <line number='47'>            SecurityContextHolder.getContext()</line>
+  <line number='48'>            .setAuthentication(usernamePasswordAuthenticationToken);</line>
+  <line number='49'>            logger.debug(String.format("Auto login %s successfully!", username));</line>
+  <line number='50'>        }</line>
+  <line number='51'>    }</line>
+  <line number='52'>}</line>
+  <type type='checkstyle' number='12' suppressed='0'/>
+</file>

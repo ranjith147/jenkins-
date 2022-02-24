@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Jan 11 09:35:19 UTC 2022
+http\://0.0.0.0/.error=Could not transfer artifact org.hibernate\:hibernate-validator-parent\:pom\:5.2.1.Final from/to maven-default-http-blocker (http\://0.0.0.0/)\: Blocked mirror for repositories\: [${NEXUS-GRP-REPO} (http\://${NEXUSIP}\:${NEXUSPORT}/repository/${NEXUS-GRP-REPO}/, default, releases+snapshots)]
+https\://repo.maven.apache.org/maven2/.lastUpdated=1641893719297
+@default-maven-default-http-blocker-http\://0.0.0.0/.lastUpdated=1641893719272

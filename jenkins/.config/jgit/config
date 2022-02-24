@@ -1,0 +1,6 @@
+[filesystem "Private Build|1.8.0_312|/dev/root"]
+	timestampResolution = 2001 microseconds
+	minRacyThreshold = 0 nanoseconds
+[filesystem "ip-172-31-80-200.ec2.internal|Private Build|1.8.0_312|/dev/root"]
+	timestampResolution = 6001 microseconds
+	minRacyThreshold = 0 nanoseconds

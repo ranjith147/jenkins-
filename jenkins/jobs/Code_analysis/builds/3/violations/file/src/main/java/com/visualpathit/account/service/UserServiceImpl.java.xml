@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file
+  name="src/main/java/com/visualpathit/account/service/UserServiceImpl.java"
+  last-modified="1642052726959"
+  file="/var/lib/jenkins/workspace/Code_analysis/src/main/java/com/visualpathit/account/service/UserServiceImpl.java"
+>
+  <violation
+    line="16"
+    source="JavadocVariableCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="17"
+    source="InvalidJavadocPositionCheck"
+    severity="High"
+    type="checkstyle"
+    message="Javadoc comment is placed in the wrong location."
+    severity-level="0"
+    popup-message="Javadoc comment is placed in the wrong location."
+  />
+  <violation
+    line="19"
+    source="JavadocVariableCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="20"
+    source="InvalidJavadocPositionCheck"
+    severity="High"
+    type="checkstyle"
+    message="Javadoc comment is placed in the wrong location."
+    severity-level="0"
+    popup-message="Javadoc comment is placed in the wrong location."
+  />
+  <violation
+    line="22"
+    source="JavadocVariableCheck"
+    severity="High"
+    type="checkstyle"
+    message="Missing a Javadoc comment."
+    severity-level="0"
+    popup-message="Missing a Javadoc comment."
+  />
+  <violation
+    line="23"
+    source="InvalidJavadocPositionCheck"
+    severity="High"
+    type="checkstyle"
+    message="Javadoc comment is placed in the wrong location."
+    severity-level="0"
+    popup-message="Javadoc comment is placed in the wrong location."
+  />
+  <violation
+    line="26"
+    source="DesignForExtensionCheck"
+    severity="High"
+    type="checkstyle"
+    message="Class 'UserServiceImpl' looks like designed for extension (can be subclassed), but the method 'save' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'UserServiceImpl' final or making the method 'save' static/final/abstract/empty, or adding allowed annotation for the method."
+    severity-level="0"
+    popup-message="Class 'UserServiceImpl' looks like designed for extension (can be subclassed), but the method 'save' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'UserServiceImpl' final or making the method 'save' static/final/abstract/empty, or adding allowed annotation for the method."
+  />
+  <violation
+    line="33"
+    source="DesignForExtensionCheck"
+    severity="High"
+    type="checkstyle"
+    message="Class 'UserServiceImpl' looks like designed for extension (can be subclassed), but the method 'findByUsername' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'UserServiceImpl' final or making the method 'findByUsername' static/final/abstract/empty, or adding allowed annotation for the method."
+    severity-level="0"
+    popup-message="Class 'UserServiceImpl' looks like designed for extension (can be subclassed), but the method 'findByUsername' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'UserServiceImpl' final or making the method 'findByUsername' static/final/abstract/empty, or adding allowed annotation for the method."
+  />
+  <line number='7'>import org.springframework.beans.factory.annotation.Autowired;</line>
+  <line number='8'>import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;</line>
+  <line number='9'>import org.springframework.stereotype.Service;</line>
+  <line number='10'></line>
+  <line number='11'>import java.util.HashSet;</line>
+  <line number='12'></line>
+  <line number='13'>/** {@author waheedk}!*/</line>
+  <line number='14'>@Service</line>
+  <line number='15'>public class UserServiceImpl implements UserService {</line>
+  <line number='16'>    @Autowired</line>
+  <line number='17'>    /** userRepository !*/</line>
+  <line number='18'>    private UserRepository userRepository;</line>
+  <line number='19'>    @Autowired</line>
+  <line number='20'>    /** roleRepository !*/</line>
+  <line number='21'>    private RoleRepository roleRepository;</line>
+  <line number='22'>    @Autowired</line>
+  <line number='23'>    /** bCryptPasswordEncoder !*/</line>
+  <line number='24'>    private BCryptPasswordEncoder bCryptPasswordEncoder;</line>
+  <line number='25'></line>
+  <line number='26'>    @Override</line>
+  <line number='27'>    public void save(final User user) {</line>
+  <line number='28'>        user.setPassword(bCryptPasswordEncoder.encode(user.getPassword()));</line>
+  <line number='29'>        user.setRoles(new HashSet&lt;&gt;(roleRepository.findAll()));</line>
+  <line number='30'>        userRepository.save(user);</line>
+  <line number='31'>    }</line>
+  <line number='32'></line>
+  <line number='33'>    @Override</line>
+  <line number='34'>    public User findByUsername(final String username) {</line>
+  <line number='35'>        return userRepository.findByUsername(username);</line>
+  <line number='36'>    }</line>
+  <line number='37'>}</line>
+  <type type='checkstyle' number='8' suppressed='0'/>
+</file>
